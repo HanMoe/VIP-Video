@@ -1,6 +1,6 @@
 function start(){
 	if($('input').val() != ""){
-		var url = "http://api.hlglwl.com/jx.php?url="+$('input').val();
+		var url = "https://api.smq1.com/?url="+$('input').val();
         layui.use('layer', function(){
 			  layer.open({
 			  type: 2
